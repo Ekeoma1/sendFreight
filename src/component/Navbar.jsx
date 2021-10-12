@@ -49,8 +49,6 @@ const Navbar = () => {
           <AiOutlineCloseCircle />
         </button>
       </div>
-
-      
     </nav>
   );
 };
