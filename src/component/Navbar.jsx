@@ -54,7 +54,7 @@ const Navbar = () => {
           <AiOutlineCloseCircle />
         </button>
       </div>
-
+      {/* mobile nav btn */}
       <div className={`mobile-nav-btn-holder ${mobileNavBtn && "d-none"}`}>
         <div>
           <button className="pri-btn mt-20 mb-20">Request Quote</button>
