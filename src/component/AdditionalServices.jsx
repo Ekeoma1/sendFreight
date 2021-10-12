@@ -22,7 +22,7 @@ const AdditionalServices = () => {
           </div>
         </div>
 
-        <div className="additional-services-features mb-20">
+        <div className="additional-services-features">
           <div className="mr-10">
             <label className="switch">
               <input className="switch-input" type="checkbox" />
@@ -38,7 +38,7 @@ const AdditionalServices = () => {
           </div>
         </div>
 
-        <div className="additional-services-features mb-20">
+        <div className="additional-services-features">
           <div className="mr-10">
             <label className="switch">
               <input className="switch-input" type="checkbox" />
@@ -54,7 +54,7 @@ const AdditionalServices = () => {
           </div>
         </div>
 
-        <div className="additional-services-features mb-20">
+        <div className="additional-services-features">
           <div className="mr-10">
             <label className="switch">
               <input className="switch-input" type="checkbox" />

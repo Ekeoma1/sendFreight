@@ -5,9 +5,14 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = () => {
   const [mobileSearchNav, setMobileSearchNav] = useState(true);
+  const [mobileNavBtn, setMobileNavBtn] = useState(true);
 
   const toggleMobSearchNav = () => {
     setMobileSearchNav(!mobileSearchNav);
+  };
+
+  const toggleMobileBtn = () => {
+    setMobileNavBtn(!mobileNavBtn);
   };
   return (
     <nav>
@@ -29,7 +34,7 @@ const Navbar = () => {
           <SearchIcon />
         </button>
 
-        <button>
+        <button onClick={toggleMobileBtn}>
           <MenuIcon />
         </button>
       </div>
@@ -48,6 +53,13 @@ const Navbar = () => {
         <button onClick={toggleMobSearchNav} className="close-mobile-search">
           <AiOutlineCloseCircle />
         </button>
+      </div>
+
+      <div className={`mobile-nav-btn-holder ${mobileNavBtn && "d-none"}`}>
+        <div>
+          <button className="pri-btn mt-20 mb-20">Request Quote</button>
+          <button className="sec-btn">Book Shipment</button>
+        </div>
       </div>
     </nav>
   );

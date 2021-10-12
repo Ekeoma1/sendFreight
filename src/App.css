@@ -134,6 +134,18 @@ nav {
   color: #fff;
 }
 
+.mobile-nav-btn-holder {
+  width: 170px;
+  height: 120px;
+  position: fixed;
+  background-color: var(--pri-color);
+  top: 60px;
+  right: 0;
+  z-index: 1000;
+  text-align: center;
+  border-radius: 20px;
+}
+
 .pri-btn {
   padding: 7px 25px;
   color: #fff;
@@ -559,6 +571,12 @@ nav {
 
   .shipping-location-input-wrapper {
     grid-template-columns: 35% auto;
+  }
+
+  .back-btn {
+    position: absolute;
+    left: -10%;
+    top: -20%;
   }
 }
 
